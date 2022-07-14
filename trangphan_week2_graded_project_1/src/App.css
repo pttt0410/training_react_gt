@@ -1,0 +1,10 @@
+.m-16 {
+  margin: 16px;
+}
+
+
+.milestone-item {
+  border: 1px solid;
+  border-radius: 6px;
+  padding-left: 1em;
+}

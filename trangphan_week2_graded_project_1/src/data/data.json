@@ -1,0 +1,111 @@
+{
+  "User": [
+    {
+      "id": 1,
+      "userName": "trangphan",
+      "email": "trangphan@gmail.com",
+      "password": "trangphan"
+    },
+    {
+      "id": 2,
+      "userName": "trangphan1",
+      "email": "trangphan1@gmail.com",
+      "password": "trangphan1"
+    }
+  ],
+  "Dashboard": [
+    {
+      "name": "leader",
+      "id": 1
+    }
+  ],
+  "Project": [
+    {
+      "milestones": [
+        {
+          "id": 1,
+          "start": "1/1/2022",
+          "end": "1/1/2023",
+          "status": "Inprogress",
+          "assignedId": 1,
+          "projectId": 1
+        },
+        {
+          "id": 2,
+          "start": "1/1/2022",
+          "end": "1/1/2023",
+          "status": "Inprogress",
+          "assignedId": 1,
+          "projectId": 1
+        },
+        {
+          "id": 3,
+          "end": "2/2/2005",
+          "start": "1/1/2003",
+          "status": "completed",
+          "assignedId": 1,
+          "projectId": 1
+        },
+        {
+          "id": 4,
+          "end": "2/2/2005",
+          "start": "1/1/2003",
+          "status": "Completed",
+          "assignedId": 1,
+          "projectId": 1
+        },
+        {
+          "id": 5,
+          "end": "2/2/2005",
+          "start": "1/1/2003",
+          "status": "Completed",
+          "assignedId": 1,
+          "projectId": 1
+        },
+        {
+          "id": 6,
+          "end": "2/2/2005",
+          "start": "1/1/2003",
+          "status": "Completed",
+          "assignedId": 1,
+          "projectId": 1
+        },
+        {
+          "id": 7,
+          "end": "2/2/2005",
+          "start": "1/1/2003",
+          "status": "Completed",
+          "assignedId": 2
+        }
+      ],
+      "name": "Git Management",
+      "dashboardId": 1,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Git Management",
+      "dashboardId": 1,
+      "milestones": [
+        {
+          "id": 1,
+          "name": "period 1",
+          "start": "1/1/2022",
+          "end": "1/1/2023",
+          "status": "Inprogress",
+          "assignedId": 1,
+          "projectId": 1
+        },
+        {
+          "id": 2,
+          "name": "period 2",
+          "start": "1/1/2022",
+          "end": "1/1/2023",
+          "status": "Inprogress",
+          "assignedId": 1,
+          "projectId": 1
+        }
+      ]
+    }
+  ]
+}
