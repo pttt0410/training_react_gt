@@ -1,0 +1,67 @@
+/* Tag Selector */
+html,
+body,
+.section-1,
+.section-2 {
+    width: 100%;
+    height: 100%
+}
+
+body {
+    margin: 0;
+}
+
+.guide {
+    border: 1px solid gainsboro;
+    margin-top: 5vh;
+    border-radius: 12px;
+    padding: 7vh 3vh 0;
+}
+
+.guide ul li {
+    padding-bottom: 5vh;
+}
+
+.margin-top {
+    margin-top: 1em;
+}
+
+.quiz .hidden {
+    display: none;
+}
+
+.quiz .spinner {
+    color: #198754;
+    margin: 10vh;
+}
+
+.btn-hidden {
+    display: none;
+}
+
+.options .option {
+    max-width: 70vh;
+    min-width: 40vh;
+    border: 1px solid;
+    border-radius: 6px;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+.options .option:hover {
+    font-weight: bold;
+}
+
+.options .user-answer {
+    font-weight: bold;
+}
+
+.options .correct-answer {
+    color: white;
+    background-color: green;
+}
+
+.options .wrong-answer {
+    color: white;
+    background-color: red;
+}

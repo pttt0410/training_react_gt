@@ -1,0 +1,15 @@
+{
+	"data": [
+		{
+			"question": "Angular 2 components can be described using ________is a way to do some meta-programming.",
+			"options": [
+				"a) controllers, controller",
+				"b) Loaders, loader",
+				"c) typescripts, typescript",
+				"d) decorators, decorator"
+			],
+			"answer": 3,
+			"id": 1
+		}
+	]
+}
