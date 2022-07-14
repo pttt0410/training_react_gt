@@ -1,0 +1,42 @@
+.quiz-app .header {
+  text-align: center;
+}
+
+.quiz-app {
+  margin: 2em;
+}
+
+.btn-success {
+  color: white;
+  background-color: forestgreen;
+  height: 36px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid forestgreen;
+  text-align: center;
+}
+
+.btn-success:disabled {
+  color: white;
+  background-color: gray;
+  height: 36px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.option {
+  width: 80%;
+  display: block;
+  border: 1px solid;
+  margin: 1em;
+  padding: 6px;
+  border-radius: 6px;
+  background: oldlace;
+
+}
