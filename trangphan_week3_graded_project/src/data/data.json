@@ -23,6 +23,48 @@
       "email": "test2@gmail.com",
       "password": "123456",
       "id": 4
+    },
+    {
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "id": 5
+    },
+    {
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "id": 6
+    },
+    {
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "id": 7
+    },
+    {
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "id": 8
+    },
+    {
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "id": 9
+    },
+    {
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "id": 10
+    },
+    {
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin123",
+      "id": 11
     }
   ],
   "Dashboard": [

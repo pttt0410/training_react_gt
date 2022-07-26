@@ -6,11 +6,9 @@ const Milestones = ({ list, users }) => {
 
     const getUser = (id) => {
         if (users) {
-            console.log(users)
             const user = users.find(user => user.id === id);
             return user?.userName;
         }
-        console.log('user');
 
     }
     return (

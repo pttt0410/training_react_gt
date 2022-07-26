@@ -85,7 +85,6 @@ const Milestones = ({ project }) => {
                         <InputLabel id="demo-simple-select-label">Status</InputLabel>
                         <Select
                             labelId="demo-simple-select-label"
-                            id="demo-simple-select"
                             value={status}
                             label="Status"
                             onChange={(e) => setStatus(e.target.value)}

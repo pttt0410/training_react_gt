@@ -18,7 +18,6 @@ function App() {
 
   const handleLogin = (user) => {
     setAuth(user);
-    navigate('/')
   }
 
   useEffect(() => {
@@ -41,7 +40,6 @@ function App() {
         <Routes>
           <Route path="/" element={<DashboardDetail />} />
           <Route path="/dashboard/:id" element={<DashboardDetail />} />
-          {/* <Route path="dashboard" element={<Dashboard />} /> */}
           <Route path="login" element={<LoginComponent />} />
           <Route path='register' element={<RegisterComponent />} />
         </Routes>

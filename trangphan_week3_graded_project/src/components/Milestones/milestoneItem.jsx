@@ -12,7 +12,7 @@ const MilestoneItem = ({ item, openModal, index }) => {
             {auth.user?.id === item.assignedId ?
                 <Grid item xs={6} key={item.id}>
                     <div className="milestone-item" >
-                        <a onClick={() => openModal(item.id, index)}>{item.title}</a>
+                        <h4 onClick={() => openModal(item.id, index)}>{item.title}</h4>
                         <p>{item.start}-{item.end}</p>
                         <p>{item.status}</p>
                     </div>
