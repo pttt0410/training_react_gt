@@ -1,0 +1,104 @@
+{
+  "User": [
+    {
+      "id": 1,
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin123"
+    },
+    {
+      "username": "test",
+      "email": "test@gmail.com",
+      "password": "test123",
+      "id": 2
+    },
+    {
+      "username": "test1",
+      "email": "test1@gmail.com",
+      "password": "test123",
+      "id": 3
+    },
+    {
+      "username": "test2",
+      "email": "test2@gmail.com",
+      "password": "123456",
+      "id": 4
+    }
+  ],
+  "Dashboard": [
+    {
+      "name": "Leading Board",
+      "id": 1
+    }
+  ],
+  "Project": [
+    {
+      "milestones": [
+        {
+          "id": 1,
+          "title": "Create Structure",
+          "start": "1/1/2022",
+          "end": "1/1/2023",
+          "status": "Inprogress",
+          "assignedId": 1,
+          "projectId": 1
+        },
+        {
+          "id": 2,
+          "title": "Create Structure",
+          "start": "1/1/2022",
+          "end": "1/1/2023",
+          "status": "Start",
+          "assignedId": 1,
+          "projectId": 1
+        },
+        {
+          "id": 3,
+          "title": "Create Structure",
+          "end": "2/2/2005",
+          "start": "1/1/2003",
+          "status": "Inprogress",
+          "assignedId": 1,
+          "projectId": 1
+        },
+        {
+          "id": 4,
+          "title": "Create Structure",
+          "end": "2/2/2005",
+          "start": "1/1/2003",
+          "status": "Completed",
+          "assignedId": 1,
+          "projectId": 1
+        }
+      ],
+      "name": "Git Management",
+      "dashboardId": 1,
+      "id": 1
+    },
+    {
+      "milestones": [
+        {
+          "id": 1,
+          "title": "period 1",
+          "start": "1/1/2022",
+          "end": "1/1/2023",
+          "status": "Completed",
+          "assignedId": 1,
+          "projectId": 1
+        },
+        {
+          "id": 2,
+          "title": "period 2",
+          "start": "1/1/2022",
+          "end": "1/1/2023",
+          "status": "Inprogress",
+          "assignedId": 1,
+          "projectId": 1
+        }
+      ],
+      "name": "Git Management",
+      "dashboardId": 1,
+      "id": 2
+    }
+  ]
+}
